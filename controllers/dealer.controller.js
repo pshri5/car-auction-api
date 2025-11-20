@@ -5,6 +5,7 @@ import { apiResponse } from "../utils/apiResponse.js";
 import { Dealer } from "../models/dealer.model.js";
 import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
+import {Auction} from "../models/auction.model.js"
 
 // Register a new dealer
 export const registerDealer = asyncHandler(async (req, res) => {
